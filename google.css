@@ -1,0 +1,88 @@
+
+body{	font: 16px sans-serif;
+    	margin: 0;
+    	position: relative;
+    	min-height: 100%;
+    	background-color: white;
+}
+header{	font-weight: 100;
+    		padding-left: 5px;
+    		margin: 0;
+    		color: #fff;
+    		min-width: 600px;
+    		line-height: 30px;
+				display: flex;
+				justify-content: flex-start;
+				flex-direction: row-reverse;
+
+}
+header a{		font-size: 14px;
+    				float: right;
+    				margin: 10px;
+}
+footer a:hover{		text-decoration: underline;
+}
+.boutonconnexion{		background: #1E72F0 ;
+    								color: white;
+    								border: none;
+    								font-weight: bold;
+    								height: 30px;
+    								width: 85px;
+										text-align: center;
+}
+.boutonconnexion:hover{		height: 32px;
+}
+p{	display: inline-block;
+    color: #999;
+    margin-left: 30px;
+}
+a{	text-decoration: none;
+    color: #333;
+    outline: none;
+}
+.button{	font-size: 12px;
+    			font-weight: bold;
+    			color: #666;
+    			background: #E9E9E9 ;
+    			width: 160px;
+    			line-height: 20px;
+    			border-radius: 3px;
+    			padding: 5px 10px;
+    			margin-top: 10px;
+}
+.button:hover{		cursor: pointer;
+    							color: black;
+    							border: 1px solid #ccc;
+}
+.france{	color: #4285F6
+}
+input{		width: 100%;
+    			line-height: 30px;
+    			border: 1px solid #ccc;
+    			padding: 5px;
+    			margin-bottom:10px;
+    			box-shadow: 0 1px 3px #ccc;
+}
+input:hover{	 	border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9 ;
+						    box-shadow: 0 2px 3px #999;
+}
+.milieu{		text-align: center;
+				    display: block;
+				    width: 600px;
+				    margin: 120px auto;
+				    padding:10px;
+}
+footer{		color: black;
+			    font-size: 12px;
+			    background-color: #F2F2F2 ;
+			    height: 30px;
+			    line-height: 5px;
+			    position: fixed;
+			    bottom: 0; left: 0; right: 0;
+					display: flex;
+					justify-content: space-around;
+}
+
+.droite{	float: right;
+					    margin-right: 15px;
+}
