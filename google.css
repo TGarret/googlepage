@@ -66,12 +66,19 @@ input{		width: 100%;
 input:hover{	 	border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9 ;
 						    box-shadow: 0 2px 3px #999;
 }
-.milieu{		text-align: center;
+#milieu{		text-align: center;
 				    display: block;
 				    width: 600px;
 				    margin: 120px auto;
 				    padding:10px;
 }
+.boutoncentre{  text-align: center;
+                position:fixed;
+                right: 50%;
+                top: 50%;
+}
+
+
 footer{		color: black;
 			    font-size: 12px;
 			    background-color: #F2F2F2 ;
@@ -79,8 +86,7 @@ footer{		color: black;
 			    line-height: 5px;
 			    position: fixed;
 			    bottom: 0; left: 0; right: 0;
-					display: flex;
-					justify-content: space-around;
+
 }
 
 .droite{	float: right;
